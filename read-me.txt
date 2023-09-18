@@ -1,0 +1,6 @@
+Please find bellow all task related files names.
+
+Task 1: Please find it within function-explanation.txt file.
+Task 2: Please find it within class-letter-counter.php file.
+Task 3: Please find it within current-dater.php file.
+Task 4: Please find it within print-response-column.php file

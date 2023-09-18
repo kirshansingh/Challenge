@@ -1,0 +1,16 @@
+Objective of the Function:
+The objective of this function is to process order items based on certain criteria, populate an array of products with their quantities, and return this array.
+
+Key Points:
+1: The function takes three parameters: $p (special product), $o (order details), and $ext (external details).
+2: It initializes variables and arrays for further use.
+3: It iterates over the external array and maps quantities by price ID ($ext_p).
+4: It iterates over order items, processes them based on conditions, and constructs product entries with quantities ($items array).
+5: It handles cases where the product has additional details in the external array or needs to be added to the items array.
+6: It returns an array of products with quantities.
+
+Iterations:
+The function uses foreach loops to iterate over the $ext array and the items in the order ($o['items']['data']), processing them accordingly.
+
+Conditionals:
+The function uses if-else conditionals to determine the behavior based on various conditions, including checking if a product exists in the external array and categorizing products based on certain criteria.Overall, the function processes order items, organizes them, and returns an array of products with their quantities based on specific conditions.
